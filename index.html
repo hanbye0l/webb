@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<title> hanbyeol- html</title>
+<meta charset="utf-8">
+</head>
+<body>
+
+<p id="a">이력서</p>
+<button type="button" onclick="cssChange()" >이 버튼 클릭!</button>
+<script>
+function cssChange() {
+    var x = document.getElementById("a");
+    x.style.fontSize = "25px";
+    x.style.color = "blue";
+}
+</script>
+
+<ol>
+  <li>인적사항</li>
+  <li>학력사항</li>
+  <li>교내외활동</li>
+  <li>경력사항</li>
+</ol>
+<br>
+<h2><u><div style="color: red">1. 인적사항</div></u></h2>
+  <img src="반명함_사진.jpg"width="180" height="230" alt="반명함 사진">
+  <table border="1"> <tr><td>이름</td><td>성별</td><td>나이</td><td>이메일 주소</td><td>전화번호</td>
+  </tr><tr><td>김한별</td>  <td>여</td> <td>21세</td> <td>hv0216@naver.com</td>  <td>010-4051-7122</td></table><br>
+<h2><u><div style="color: red"> 2. 학력사항</div></u> </h2>
+  <table border="1"><tr><td>기간</td><td>학교명</td><td>학과</td><td>학교 소재지</td><td>평균 학점</td>
+  </tr><tr><td>2019. 03~</td><td><a href="https://www.kookmin.ac.kr/emergency/online_lecture_new/index.htm">국민대학교</a></td><td>행정학과</td><td>서울시</td><td>4.15</td></table><br>
+<h2><u><div style="color: red"> 3. 교내외활동</div> </u></h2>
+  <table border="1"><tr><td>기간</td><td>활동명</td><td>활동내용</td>
+  </tr><tr><td>2019. 12. 26~2019. 12. 28</td><td>대학생 기업경영 체험캠프</td><td>경영 시뮬레이션을 통한 기업현장 체험학습</td>
+  </tr><tr><td>2019. 09. 25~</td><td>성모의 집 지역아동센터 봉사활동</td><td>학습지도(국어, 영어, 수학)</td></table><br>
+<h2><u><div style="color: red">4. 경력사항</div></u></h2>
+  <table border="1"><tr><td>기간</td><td>기관</td><td>담당업무</td>
+  </tr><tr><td>2020. 04. 10~ 2020. 04. 11</td><td>정릉3동주민센터</td><td>사전투표사무원</td></table><br>
+</body>
+</html>
